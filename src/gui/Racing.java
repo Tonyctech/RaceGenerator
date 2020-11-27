@@ -22,9 +22,7 @@ public class Racing {
 
 		boolean looping = true;
 		String name = "";
-		System.out.println("Enter the name of your racers: ");
-		System.out.println("Repository for a jar application that will take racer names, roll random number for each racer, and finally print out a unique phrase for each racer.");
-
+		System.out.println("Enter the name of your racers then type \"Done\": ");
 		while (looping) {
 			name = input.nextLine();
 			if (name.equals("Done")) {
